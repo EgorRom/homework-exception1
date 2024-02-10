@@ -7,4 +7,5 @@ import com.exception.homework.exception1.exception.WrongPasswordException;
 public interface RegistrationService {
 
 
-    String registrationUser(String login, String password, String confirmPassword) throws WrongLoginException, WrongPasswordException;}
+    String registrationUser(String login, String password, String confirmPassword) throws WrongLoginException, WrongPasswordException;
+}
